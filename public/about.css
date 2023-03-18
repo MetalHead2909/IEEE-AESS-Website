@@ -1,0 +1,1004 @@
+/* media queries 
+at: 1285x1468 
+    -focus intro element 
+    -team intro 
+    -footer
+at: 932x1468
+    -header
+    -intro
+at 770:white line
+at: 420x1468
+    -white line 
+*/
+.agri-drone{
+    transition: 500ms;
+}
+.agri-drone:hover{
+    transition: 500ms;
+    color: gray;
+}
+.animate-div-target .animate-div-aim .animate-div-vision .animate-div-team{
+    width:100%;
+}
+.animate-div-p{
+    font-size: 27px;
+}
+.animate-hr-1 .animate-hr-2 .animate-hr-3{
+    width:100%;
+}
+.intro-back{
+    width:100%;
+}
+.fadeInLeft{
+    -webkit-animation: fadeInLeft 1.2s both;
+    /* safari */
+    -moz-animation: fadeInLeft 1.2s both;
+    /* firefox */
+    -o-animation: fadeInLeft 1.2s both;
+    /* opera */
+    animation: fadeInLeft 1.2s both;
+    /* internet explorer and firefox */
+}
+@-webkit-keyframes fadeInLeft {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}
+@-moz-keyframes fadeInLeft{
+    0%{
+        opacity: 0;
+        -moz-transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        -moz-transform: translateX(0);
+    }
+}
+@-o-keyframes fadeInLeft{
+    0%{
+        opacity: 0;
+        -o-transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        -o-transform: translateX(0);
+    }
+}
+@keyframes fadeInLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fadeInTop{
+    -webkit-animation: fadeInTop 1.2s both;
+    /* safari */
+    -moz-animation: fadeInTop 1.2s both;
+    /* firefox */
+    -o-animation: fadeInTop 1.2s both;
+    /* opera */
+    animation: fadeInTop 1.2s both;
+    /* internet explorer and firefox */
+}
+@-webkit-keyframes fadeInTop {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+@-moz-keyframes fadeInTop{
+    0%{
+        opacity: 0;
+        -moz-transform: translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        -moz-transform: translateY(0);
+    }
+}
+@-o-keyframes fadeInTop{
+    0%{
+        opacity: 0;
+        -o-transform: translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        -o-transform: translateY(0);
+    }
+}
+@keyframes fadeInTop{
+    0%{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100%{
+        opacity: 0.6;
+        transform: translateY(0);
+    }
+}
+.fadeInRight{
+    -webkit-animation: fadeInRight 1.2s both;
+    /* safari */
+    -moz-animation: fadeInRight 1.2s both;
+    /* firefox */
+    -o-animation: fadeInRight 1.2s both;
+    /* opera */
+    animation: fadeInRight 1.2s both;
+    /* internet explorer and firefox */
+}
+@-webkit-keyframes fadeInRight {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(50px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}
+@-moz-keyframes fadeInRight{
+    0%{
+        opacity: 0;
+        -moz-transform: translateX(50px);
+    }
+    100%{
+        opacity: 1;
+        -moz-transform: translateX(0);
+    }
+}
+@-o-keyframes fadeInRight{
+    0%{
+        opacity: 0;
+        -o-transform: translateX(50px);
+    }
+    100%{
+        opacity: 1;
+        -o-transform: translateX(0);
+    }
+}
+@keyframes fadeInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.visibility-div{
+    visibility: hidden;
+}
+.center-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fade-in{
+    animation: fadeIn 6s;
+}
+.fade-in-left{
+    animation: fadeInLeft 3s;
+}
+.fade-in-up{
+    animation: fadeInUp 3s;
+}
+.fade-in-right{
+    animation: fadeInRight 3s;
+}
+@keyframes fadeIn{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes fadeInLeft{
+    0% {opacity: 0;transform: translate3d(-100%,0,0);}
+    100% {opacity: 0.6;transform: none;}
+}
+@keyframes fadeInUp {
+    0% {opacity:0;transform:translate3d(0,100%,0);}
+    100% {opacity: 0.6;transform: none;}
+}
+@keyframes fadeInRight {
+    0% {opacity:0;transform:translate3d(100%,0,0);}
+    100% {opacity:0.6;transform:none;}
+}
+@media screen and (min-width:1290px){
+.header-navbar{
+    font-size: 60px;
+    font-family: 'Noto Serif Ahom',serif;
+}
+.header-color{
+    color: white;
+}
+/* .header-color:hover{
+    text-decoration: underline;
+    color: white;
+} */
+.div-nav{
+    height:1px;
+    width:400px;
+}
+.navbar-elements{
+    font-size: 30px;
+    font-family: 'Noto Serif Ahom',serif;
+}
+.nav-element:hover{
+    background-color: grey;
+    transition: 2000ms;
+}
+.intro{
+    position:relative;
+    background-image: url(../earthsatellite2.jpeg);
+    /* background-position-x: center;
+    background-position-y: top; */
+    /* top:-200px; */
+    background-size: cover;
+    width:100%;
+    height:700px;
+    /* z-index: -5; */
+    background-attachment: fixed;
+    /* 
+    earthsatellite2:728x455
+    page: 1199x 917 */
+}
+.ieee-logo{
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+    transition: 500ms;
+    width:100px;
+    height:56px;
+    opacity:0.5;
+    position:relative;
+    top:100px;
+    left:150px;
+}
+.ieee-logo:hover{
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+    transition: 500ms;
+    opacity: 1;
+}
+.aess-logo{
+    /* display: block; */
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+    transition: width 2s;
+    position: relative;
+    width:60%;
+    left:320px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* top:150px; */
+}
+.aess-logo:hover{
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+    transition: width 2s;
+    width:62%;
+}
+.aess-name:hover{
+    transition: 500ms;
+    color: grey;
+}
+.aess-brand{
+    font-family: 'Noto Serif Ahom',serif;
+    text-align: center;
+    color: white;position:relative;
+    top:40px;
+}
+#focus-intro{
+    /* 1000x664 */
+    background-color: black;
+    background-image: url(../wingaeropplane.jpeg);
+    background-size: cover;
+    width:100%;
+    height: 800px;
+}
+.focus-intro-element{
+    transition: 500ms;
+    background-color: black;
+    color:white;
+    opacity: 0.6;
+    text-align: center;
+    font-family: 'Noto Serif Ahom',serif;
+    width:31%;
+    height:650px;
+    margin-left:15px;
+    margin-right:15px;
+    margin-top:100px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 25px;
+}
+.meet-the-team{
+    font-family: 'Noto Serif Ahom',serif;
+    font-size: 70px;
+    color:black;
+}
+.head-to-team{
+    color:grey;
+    font-size: 20px;
+    font-family: 'Noto Serif Ahom',serif;
+    transition: 1s;
+}
+.head-to-team:hover{
+    color: aqua;
+    font-size:22px;
+    transition: 1s;
+}
+#team-intro .card{
+    margin-top: 50px;
+    width:31%;
+    height:500px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+/* .team-intro-element{
+    background-image: url(../eah2.jpeg);
+    background-size: cover;
+} */
+.team-intro-card{
+    position: absolute;
+    bottom:0;
+    font-size:30px;
+    font-family: 'Noto Serif Ahom',serif;
+    color:white;
+    /* background: black; */
+    /* text-align:center; */
+}
+.button-student-team{
+    font-family: 'Noto Serif Ahom',serif;
+    font-size: 40px;
+    position: absolute;
+    right:0px;
+}
+.button-effect:hover{
+    transition: 500ms;
+    border: solid 2px green;
+    background-color: black;
+    color:green;
+}
+.contact-us{
+    font-family: 'Noto Serif Ahom',serif;
+    color:white;
+}
+.iframe-map{
+    border:0;
+    border-radius: 25px;
+    padding-left: 50px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.animate-div-target {
+    width:900px;
+    position:absolute;
+    z-index:5;
+    right:150px;
+    top: 250px;
+    height:800px;
+    /* width:100%; */
+}
+.animate-div-aim {
+    position:absolute;z-index:5;left:50px;top: 750px;width:900px;height:800px;
+    /* width:100%; */
+}
+.animate-div-vision {
+    position:absolute;z-index:5;right:150px;top: 1250px;width:900px;height:800px;
+    /* width:100%; */
+}
+.animate-div-team{
+    position:absolute;z-index:5;top: 1750px;width:100%;height:100px;
+    /* width:100%; */
+}
+.animate-div-p{
+    font-size: 27px;
+}
+.animate-hr-1 {
+    color:white;position: absolute;width:92%;z-index: 5;top:680px;border: solid 5px white;
+}
+.animate-hr-2 {
+    color:white;position: absolute;width:98%;z-index: 5;top:1150px;border: solid 5px white;;right:0px;
+}
+.animate-hr-3{
+    color:white;position: absolute;width:92%;z-index: 5;top:1650px;border: solid 5px white;
+    /* width:100%; */
+}
+.intro-back{
+    /* width:100%; */
+}
+.animate-div-team-p{
+    font-size: 50px;
+}
+.college-name{
+    text-align: center;
+    font-family: 'Noto Serif Ahom',serif;
+    color:white;
+}
+.college-name-effect{
+    padding-top:28px;
+    padding-bottom:50px;
+    padding-right:150px;
+}
+.college-name:hover{
+    color:red;
+}
+}
+/* ---------------------------- */
+@media screen and (min-width:930px) and (max-width:1289px){
+    .header-navbar{
+        font-size: 60px;
+        font-family: 'Noto Serif Ahom',serif;
+    }
+    .header-color{
+        color: white;
+    }
+    /* .header-color:hover{
+        text-decoration: underline;
+        color: white;
+    } */
+    .navbar-elements{
+        font-size: 30px;
+        font-family: 'Noto Serif Ahom',serif;
+    }
+    .nav-element:hover{
+        background-color: grey;
+        transition: 2000ms;
+    }
+    .intro{
+        position:relative;
+        background-image: url(../earthsatellite2.jpeg);
+        /* background-position-x: center;
+        background-position-y: top; */
+        /* top:-200px; */
+        background-size: cover;
+        width:100%;
+        height:700px;
+        /* z-index: -5; */
+        background-attachment: fixed;
+        /* 
+        earthsatellite2:728x455
+        page: 1199x 917 */
+    }
+    .ieee-logo{
+        width:100px;
+        height:56px;
+        opacity:0.5;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ieee-logo:hover{
+        transition: 500ms;
+        opacity: 1;
+    }
+    .aess-logo{
+        display: block;
+        /* position: relative;
+        width:60%;
+        left:320px; */
+        margin-left: auto;
+        margin-right: auto;
+        /* top:150px; */
+    }
+    .aess-logo:hover{
+        transition: 2000ms;
+        width:62%;
+    }
+    .aess-name:hover{
+        transition: 500ms;
+        color: grey;
+    }
+    .aess-brand{
+        font-family: 'Noto Serif Ahom',serif;
+        text-align: center;
+        color: white;position:relative;
+        top:40px;
+    }
+    #focus-intro{
+        /* 1000x664 */
+        background-color: black;
+        background-image: url(../wingaeropplane.jpeg);
+        background-size: cover;
+        width:100%;
+        height:900px;
+    }
+    .focus-intro-element{
+        background-color: black;
+        color:white;
+        opacity: 0.6;
+        text-align: center;
+        font-family: 'Noto Serif Ahom',serif;
+        width:30%;
+        height:720px;
+        margin-left:15px;
+        margin-right:15px;
+        margin-top:100px;
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-left:10px;
+        padding-right:10px;
+        border-radius: 25px;
+    }
+    .meet-the-team{
+        font-family: 'Noto Serif Ahom',serif;
+        font-size: 70px;
+        color:black;
+    }
+    .head-to-team{
+        color:grey;
+        font-size: 20px;
+        font-family: 'Noto Serif Ahom',serif;
+    }
+    #team-intro .card{
+        margin-top: 50px;
+        width:30%;
+        height:500px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .inverted-comma{
+        visibility: hidden;
+    }
+    .team-intro-element{
+        background-image: url(../eah2.jpeg);
+        background-size: cover;
+    }
+    .team-intro-card{
+        position: absolute;
+        bottom:0;
+        font-size:30px;
+        font-family: 'Noto Serif Ahom',serif;
+        color:white;
+        /* background: black; */
+        /* text-align:center; */
+    }
+    .button-student-team{
+        font-family: 'Noto Serif Ahom',serif;
+        font-size: 40px;
+        /* position: absolute; */
+        /* right:0px; */
+    }
+    .button-effect:hover{
+        transition: 500ms;
+        border: solid 2px green;
+        background-color: black;
+        color:green;
+    }
+    .contact-us{
+        font-family: 'Noto Serif Ahom',serif;
+        color:white;
+        text-align: center;
+    }
+    .iframe-map{
+        border:0;
+        border-radius: 25px;
+        padding-left: 50px;
+        padding-top:20px;
+        padding-bottom: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .animate-div-target {
+        width:700px;
+        position:absolute;
+        z-index:5;
+        right:150px;
+        top: 250px;
+        height:800px;
+        /* width:100%; */
+    }
+    .animate-div-aim {
+        position:absolute;z-index:5;left:50px;top: 750px;width:700px;height:800px;
+        /* width:100%; */
+    }
+    .animate-div-vision {
+        position:absolute;z-index:5;right:150px;top: 1250px;width:700px;height:800px;
+        /* width:100%; */
+    }
+    .animate-div-team{
+        position:absolute;z-index:5;top: 1750px;width:100%;height:100px;
+        /* width:100%; */
+    }
+    .animate-div-p{
+        font-size: 20px;
+    }
+    .animate-hr-1 {
+        color:white;position: absolute;width:92%;z-index: 5;top:680px;border: solid 5px white;
+    }
+    .animate-hr-2 {
+        color:white;position: absolute;width:98%;z-index: 5;top:1150px;border: solid 5px white;;right:0px;
+    }
+    .animate-hr-3{
+        color:white;position: absolute;width:92%;z-index: 5;top:1650px;border: solid 5px white;
+        /* width:100%; */
+    }
+    .intro-back{
+        /* width:100%; */
+    }
+    .animate-div-team-p{
+        font-size: 50px;
+    }
+    .college-name{
+        font-size: larger;
+        font-family: 'Noto Serif Ahom',serif;
+        color:white;
+        text-align: center;
+    }
+    .college-name:hover{
+        color:red;
+    }
+}
+@media screen and (min-width:420px) and (max-width:929px){
+    .header-navbar{
+        font-size: 40px;
+        font-family: 'Noto Serif Ahom',serif;
+    }
+    .header-color{
+        color: white;
+    }
+    /* .header-color:hover{
+        text-decoration: underline;
+        color: white;
+    } */
+    .div-nav{
+        height:1px;
+        width:400px;
+        display:none;
+    }
+    .navbar-elements{
+        font-size: 30px;
+        font-family: 'Noto Serif Ahom',serif;
+    }
+    .nav-element:hover{
+        background-color: grey;
+        transition: 2000ms;
+    }
+    .intro{
+        position:relative;
+        background-image: url(../earthsatellite2.jpeg);
+        /* background-position-x: center;
+        background-position-y: top; */
+        /* top:-200px; */
+        background-size: cover;
+        width:100%;
+        height:700px;
+        /* z-index: -5; */
+        background-attachment: fixed;
+        /* 
+        earthsatellite2:728x455
+        page: 1199x 917 */
+    }
+    .ieee-logo{
+        width:100px;
+        height:56px;
+        opacity:0.5;
+        display: block;
+        margin: auto;
+    }
+    .ieee-logo:hover{
+        transition: 500ms;
+        opacity: 1;
+    }
+    .aess-logo{
+        display: block;
+        /* position: relative; */
+        width:60%;
+        /* left:320px; */
+        margin-left: auto;
+        margin-right: auto;
+        /* top:150px; */
+    }
+    .aess-logo:hover{
+        transition: 2000ms;
+        width:62%;
+    }
+    .aess-name:hover{
+        transition: 500ms;
+        color: grey;
+    }
+    .aess-brand{
+        font-family: 'Noto Serif Ahom',serif;
+        text-align: center;
+        color: white;position:relative;
+        top:40px;
+    }
+    #focus-intro{
+        /* 1000x664 */
+        background-color: black;
+        background-image: url(../wingaeropplane.jpeg);
+        background-size: cover;
+        width:100%;
+        height: 2300px;
+    }
+    .focus-intro-element{
+        background-color: black;
+        color:white;
+        opacity: 0.6;
+        text-align: center;
+        font-family: 'Noto Serif Ahom',serif;
+        width:80%;
+        height:650px;
+        margin-left:15px;
+        margin-right:15px;
+        margin-top:100px;
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-left:10px;
+        padding-right:10px;
+        border-radius: 25px;
+    }
+    .meet-the-team{
+        font-family: 'Noto Serif Ahom',serif;
+        font-size: 70px;
+        color:black;
+        text-align: center;
+    }
+    .head-to-team{
+        color:grey;
+        font-size: 20px;
+        font-family: 'Noto Serif Ahom',serif;
+    }
+    #team-intro .card{
+        margin-top: 50px;
+        width:80%;
+        height:500px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .inverted-comma{
+        visibility: hidden;
+    }
+    .team-intro-element{
+        background-image: url(../eah2.jpeg);
+        background-size: cover;
+    }
+    .team-intro-card{
+        position: absolute;
+        bottom:0;
+        font-size:30px;
+        font-family: 'Noto Serif Ahom',serif;
+        color:white;
+        /* background: black; */
+        /* text-align:center; */
+    }
+    .button-student-team{
+        font-family: 'Noto Serif Ahom',serif;
+        font-size: 40px;
+    }
+    .button-effect:hover{
+        transition: 500ms;
+        border: solid 2px green;
+        background-color: black;
+        color:green;
+    }
+    /* .animate-div-target .animate-div-aim .animate-div-vision .animate-div-team{
+        width:100%;
+    }
+    .animate-hr-1 .animate-hr-2 .animate-hr-3{
+        width:100%;
+    }
+    .intro-back{
+        width:100%;
+    } */
+    .contact-us{
+        font-family: 'Noto Serif Ahom',serif;
+        color:white;
+        text-align: center;
+    }
+    .iframe-map{
+        display: block;
+        border:0;
+        border-radius: 25px;
+        width:400px;
+        height:200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .animate-div-target {
+        width:400px;
+        position:absolute;
+        z-index:5;
+        right:150px;
+        top: 180px;
+        height:500px;
+        /* width:100%; */
+    }
+    .animate-div-aim {
+        position:absolute;z-index:5;left:50px;top: 725px;width:400px;height:1000px;
+        /* width:100%; */
+    }
+    .animate-div-vision {
+        position:absolute;z-index:5;right:150px;top: 1300px;width:400px;height:800px;
+        /* width:100%; */
+    }
+    .animate-div-team{
+        position:absolute;z-index:5;top: 1790px;width:100%;height:100px;
+        margin-bottom: 10px;
+        /* width:100%; */
+    }
+    .animate-div-p{
+        font-size: 20px;
+    }
+    .animate-hr-1 {
+        color:white;position: absolute;width:92%;z-index: 5;top:680px;border: solid 5px white;
+    }
+    .animate-hr-2 {
+        color:white;position: absolute;width:98%;z-index: 5;top:1250px;border: solid 5px white;;right:0px;
+    }
+    .animate-hr-3{
+        color:white;position: absolute;width:92%;z-index: 5;top:1750px;border: solid 5px white;
+        /* width:100%; */
+    }
+    .intro-back{
+        /* width:100%; */
+    }
+    .animate-div-team-p{
+        font-size: 30px;
+    }
+    .college-name{
+        font-size: larger;
+        font-family: 'Noto Serif Ahom',serif;
+        color:white;
+        text-align: center;
+    }
+    /* .college-name-effect{
+        padding-top:50px;
+        padding-bottom:50px;
+        padding-right:150px;
+    } */
+    .college-name:hover{
+        color:red;
+    }
+}
+/* #navbaredit{
+    opacity: 0.8;
+} */
+/* .navigationbar{
+    background:black; */
+    /* color:white; */
+    /* height:120px;
+    width:auto;
+} */
+/* header{ */
+    /* position: absolute;  */
+    /* not put the position: absolute property*/
+/* } */
+/* header{
+    position:sticky;
+    width:100%;
+    height:100vh;
+    background-image: url(../earthsatellite2.jpeg);
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow:hidden;
+    bottom:115px;
+    z-index:-20;
+} */
+/* .spitlogo{
+    position:relative;
+    width:90px;
+    height:90px;
+}
+.navbarAess{
+    position:relative;
+    font-size:60px;
+    top:10px; */
+    /* bottom:60px; */
+    /* left:120px; */
+    /* font-family: 'Noto Serif Ahom', serif;
+    color:white;
+}
+.navbarElements{
+    color:white;
+    font-family: 'Noto Serif Ahom', serif;
+    font-size: 30px;
+}
+.navbardesign{
+    border-right:2px solid;
+    border-color:grey;
+    padding-right:10px;
+    padding-left:10px;
+} */
+/* .earth-satellite{
+    position:relative;
+    width:auto;
+    height: 775px;
+    bottom:125px;
+    z-index: -20;
+} */
+/* section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+/* .aess-logo{
+    display: block;
+    position: relative; */
+    /* top:100px; */
+    /* top:15%;
+    margin-left: auto;
+    margin-right: auto; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* width: 60%;
+} */
+/* .intro-section{
+    background-attachment: fixed;
+} */
+/* .aess-logo{
+    position:relative;
+    width:55%;
+    z-index:20;
+} */
+/* #brandname-1{
+    position:relative;
+    top: 30%;
+    left:15%;
+    font-size: 65px;
+    font-family:'Noto Serif Ahom',serif;
+    color: white;
+    z-index:20;
+} */
+/* #brandname-2{
+    position:relative;
+    top:10%;
+    left:50%;
+    font-size: 65px;
+    font-family:'Noto Serif Ahom',serif;
+    color: white;
+    z-index:20;
+} */
+/* .brand{
+    position: relative;
+    top:120px;
+    left:165px;
+} */
+/* #after-intro{
+    background: url(../wingaeropplane.jpeg);
+    background-size:cover;
+    overflow:hidden;
+    position:relative;
+} */
+/* #after-intro::before{
+    background: black;
+    position: absolute;
+} */
+/* .aeroplane-after-intro{ */
+    /* height:600px;  */
+    /* width:100%;
+} */
+/* .col{  
+    display: table; 
+    margin: 100px 100px 100px 100px;
+} */
+/* .intro-element{
+    display: inline-block;
+    text-align: center;
+    background: black;
+    width:30%;
+    height: 800px;
+    opacity: 0.8;
+} */
+/* #aim-bar,#vision-bar{
+    margin-right:50px;
+} */

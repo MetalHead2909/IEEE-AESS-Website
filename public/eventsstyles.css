@@ -1,0 +1,408 @@
+/* media queries 
+at: 1285x1468 
+    -focus intro element 
+    -team intro 
+    -footer
+at: 932x1468
+    -header
+    -intro
+at 770:white line
+at: 420x1468
+    -white line 
+*/
+.fadeInLeft{
+    -webkit-animation: fadeInLeft 1.2s both;
+    /* safari */
+    -moz-animation: fadeInLeft 1.2s both;
+    /* firefox */
+    -o-animation: fadeInLeft 1.2s both;
+    /* opera */
+    animation: fadeInLeft 1.2s both;
+    /* internet explorer and firefox */
+}
+@-webkit-keyframes fadeInLeft {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}
+@-moz-keyframes fadeInLeft{
+    0%{
+        opacity: 0;
+        -moz-transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        -moz-transform: translateX(0);
+    }
+}
+@-o-keyframes fadeInLeft{
+    0%{
+        opacity: 0;
+        -o-transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        -o-transform: translateX(0);
+    }
+}
+@keyframes fadeInLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.fadeInTop{
+    -webkit-animation: fadeInTop 1.2s both;
+    /* safari */
+    -moz-animation: fadeInTop 1.2s both;
+    /* firefox */
+    -o-animation: fadeInTop 1.2s both;
+    /* opera */
+    animation: fadeInTop 1.2s both;
+    /* internet explorer and firefox */
+}
+@-webkit-keyframes fadeInTop {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+@-moz-keyframes fadeInTop{
+    0%{
+        opacity: 0;
+        -moz-transform: translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        -moz-transform: translateY(0);
+    }
+}
+@-o-keyframes fadeInTop{
+    0%{
+        opacity: 0;
+        -o-transform: translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        -o-transform: translateY(0);
+    }
+}
+@keyframes fadeInTop{
+    0%{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.fadeInRight{
+    -webkit-animation: fadeInRight 1.2s both;
+    /* safari */
+    -moz-animation: fadeInRight 1.2s both;
+    /* firefox */
+    -o-animation: fadeInRight 1.2s both;
+    /* opera */
+    animation: fadeInRight 1.2s both;
+    /* internet explorer and firefox */
+}
+@-webkit-keyframes fadeInRight {
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(50px);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}
+@-moz-keyframes fadeInRight{
+    0%{
+        opacity: 0;
+        -moz-transform: translateX(50px);
+    }
+    100%{
+        opacity: 1;
+        -moz-transform: translateX(0);
+    }
+}
+@-o-keyframes fadeInRight{
+    0%{
+        opacity: 0;
+        -o-transform: translateX(50px);
+    }
+    100%{
+        opacity: 1;
+        -o-transform: translateX(0);
+    }
+}
+@keyframes fadeInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.visibility-div{
+    visibility: hidden;
+}
+.center-element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.event-card{
+    margin:40px 40px 40px 40px;
+    width: 27%;
+}
+@media screen and (min-width:1400px){
+.header-navbar{
+    font-size: 60px;
+    font-family: 'Noto Serif Ahom',serif;
+}
+.header-color{
+    color: white;
+}
+.div-nav{
+    height:1px;
+    width:400px;
+}
+.navbar-elements{
+    font-size: 30px;
+    font-family: 'Noto Serif Ahom',serif;
+}
+.nav-element:hover{
+    background-color: grey;
+    transition: 2000ms;
+}
+.img-1{
+    background-size: cover;width:330px;height:285px;padding-top:53px;
+}
+.img-2{
+    background-size: cover;width:330px;height:285px;padding-top:53px;
+}
+.img-3{
+    background-size: cover;width:330px;height:285px;padding-top:53px;
+}
+#team-intro .card{
+        margin-top: 50px;
+        /* width:28%; */
+        height:300px;
+        width:400px;
+        margin-left: 50px;
+        margin-right: 15px;
+    }
+.team-intro-card{
+        position: absolute;
+        bottom:0;
+        font-family: 'Noto Serif Ahom',serif;
+        color:white;
+        /* background: black; */
+        /* text-align:center; */
+    }
+.event-info{
+    position: relative;
+    bottom: 45px;
+}
+.event-name-info{
+    position: relative;
+    bottom: 45px;
+}
+.hover-info{
+    transition: 2s;
+}
+.hover-info:hover{
+    transition: 2s;
+    transform: translateY(-90px);
+}
+.contact-us{
+    font-family: 'Noto Serif Ahom',serif;
+    color:white;
+}
+.iframe-map{
+    border:0;
+    border-radius: 25px;
+    padding-left: 50px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.college-name{
+    text-align: center;
+    font-family: 'Noto Serif Ahom',serif;
+    color:white;
+}
+.college-name-effect{
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-right:150px;
+}
+.college-name:hover{
+    color:red;
+}
+}
+/* ---------------------------- */
+@media screen and (min-width:992px) and (max-width:1399px){
+    .header-navbar{
+        font-size: 60px;
+        font-family: 'Noto Serif Ahom',serif;
+    }
+    .header-color{
+        color: white;
+    }
+    .navbar-elements{
+        font-size: 30px;
+        font-family: 'Noto Serif Ahom',serif;
+    }
+    .nav-element:hover{
+        background-color: grey;
+        transition: 2000ms;
+    }
+    #team-intro .card{
+        margin-top: 50px;
+        /* width:28%; */
+        height:300px;
+        width:400px;
+        margin-left: 50px;
+        margin-right: 15px;
+    }
+.team-intro-card{
+        position: absolute;
+        bottom:0;
+        font-family: 'Noto Serif Ahom',serif;
+        color:white;
+        /* background: black; */
+        /* text-align:center; */
+    }
+.event-info{
+    position: relative;
+    bottom: 45px;
+}
+.event-name-info{
+    position: relative;
+    bottom: 45px;
+}
+.hover-info{
+    transition: 2s;
+}
+.hover-info:hover{
+    transition: 2s;
+    transform: translateY(-90px);
+}
+    .contact-us{
+        font-family: 'Noto Serif Ahom',serif;
+        color:white;
+        text-align: center;
+    }
+    .iframe-map{
+        border:0;
+        border-radius: 25px;
+        padding-left: 50px;
+        padding-top:20px;
+        padding-bottom: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .college-name{
+        font-size: larger;
+        font-family: 'Noto Serif Ahom',serif;
+        color:white;
+        text-align: center;
+    }
+    .college-name:hover{
+        color:red;
+    }
+}
+@media screen and (min-width:420px) and (max-width:991px){
+    .header-navbar{
+        font-size: 40px;
+        font-family: 'Noto Serif Ahom',serif;
+    }
+    .header-color{
+        color: white;
+    }
+    .div-nav{
+        height:1px;
+        width:400px;
+        display:none;
+    }
+    .navbar-elements{
+        font-size: 30px;
+        font-family: 'Noto Serif Ahom',serif;
+    }
+    .nav-element:hover{
+        background-color: grey;
+        transition: 2000ms;
+    }
+    #team-intro .card{
+        margin-top: 50px;
+        /* width:28%; */
+        height:300px;
+        width:400px;
+        margin-left: 50px;
+        margin-right: 15px;
+    }
+.team-intro-card{
+        position: absolute;
+        bottom:0;
+        font-family: 'Noto Serif Ahom',serif;
+        color:white;
+        /* background: black; */
+        /* text-align:center; */
+    }
+.event-info{
+    position: relative;
+    bottom: 45px;
+}
+.event-name-info{
+    position: relative;
+    bottom: 45px;
+}
+.hover-info{
+    transition: 2s;
+}
+.hover-info:hover{
+    transition: 2s;
+    transform: translateY(-90px);
+}
+    .contact-us{
+        font-family: 'Noto Serif Ahom',serif;
+        color:white;
+        text-align: center;
+    }
+    .iframe-map{
+        display: block;
+        border:0;
+        border-radius: 25px;
+        width:400px;
+        height:200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .college-name{
+        font-size: larger;
+        font-family: 'Noto Serif Ahom',serif;
+        color:white;
+        text-align: center;
+    }
+    .college-name:hover{
+        color:red;
+    }
+}
